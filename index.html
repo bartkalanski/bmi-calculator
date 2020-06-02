@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h2>BMI healthy weight calculator</h2>
+    <h4 class="h4-header">Use this calculator to check your body mass index and find out if you are a healthy weight</h4>
+</header>
+    <main>
+        <form id="form" type="submit">
+        <div class="bmi-grid">
+            <div id="grid-head">
+                <h4 class="h4-grid">BMI Calculator</h4>
+            </div>
+            <div id="grid-height">
+                <h6 class="big">Height</h6>
+                <h6 class="small">Meters</h6>
+                <input type="number" id="input-height" placeholder="For example: 1.80" required>
+            </div>
+            <div id="grid-weight">
+                <h6 class="big">Weight</h6>
+                <h6 class="small">Kilograms</h6>
+                <input type="number" id="input-weight" placeholder="For example: 90" required>
+            </div>
+            <div id="grid-age">
+                <h6 class="big">Age</h6>
+                <input type="number" id="input-age" placeholder="For example: 25" required>
+            </div>
+            <div id="grid-sex">
+                <h6 class="big">Sex</h6>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+            </div>
+            <div id="grid-calculate">
+                <button type="button" id="sendBtn">Calculate</button>
+            </div>
+            <div id="grid-result">
+                <h6>Result:   </h6>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+</body>
+</html>
